@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#WrongPinError{
+border: none;
+outline: none;
+}
+#Pin{
+outline: none;
+}
+#cashDepo{
+display: none;
+}
+#depositeValue{
+display: none;
+outline: none;
+}
+#showBlance{
+display: none;
+border: none;
+outline: none;
+/* width: 500px; */
+}
+#Enterdepo{
+display: none;
+}
+#cashWidth{
+display: none;
+}
+#cashCheck{
+display: none;
+}
+#widthdrawalValue{
+display: none;
+}
+#Enterwidth{
+display: none;
+}
+#showblance{
+display: none;
+border: none;
+outline: none;
+/* width: 500px; */
+}
+#showblanceb{
+display: none;
+/* width: 500px; */
+border: none;
+}
+#exit1{
+display: none;
+}
+#exit2{
+display: none;
+}
+#exit3{
+display: none;
+}
+#Main{
+display:none;
+}
+.inpShow{
+margin-bottom:5px;
+padding: 3px;
+text-align: center;
+font-size: 41px; 
+}
+#atm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+height: 100vh;
+border-radius: 10px;   
+border: 5px solid green;
+background: rgb(54, 245, 54);
+}
+.Btns{
+padding: 10px;
+background: rgb(54, 245, 54);
+outline: none;
+cursor: pointer;
+color: white;
+border: none;
+font-size: 41px; 
+margin: 12px;
+transition: all 1s ease;
+}
+.Btns:hover{
+background-color: rgb(3, 88, 3);
+border: 3px solid white;
+border-radius: 10px;
+color: white;
+}
+#Wel-msg{
+font-size: 43px;
+margin-bottom: 12px;
+color: white;
+position: relative;
+z-index: 1;
+}
+.Error-msg{
+background: rgb(54, 245, 54);
+font-size: 43px;
+text-align: center;
+}
+#img-atm{
+height: 100px;
+width: 100px;
+margin-top: 19px;
+}
+.box{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+#atm-line{
+border: 1px solid gold;
+}
+#ctd{
+height: 100px;
+width: 200px;
+margin-top: 19px;
+}
+.footer{
+font-size: 23px;
+text-align: center;
+}

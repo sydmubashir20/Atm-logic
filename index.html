@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atm logic | Class Assignment no: 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div id="atm">
+        
+        <marquee direction="left" id="Wel-msg">Welcome to state bank atm service</marquee>
+        <!-- First Phase of atm Logic -->
+        <input type="number" name="" id="Pin" placeholder="Enter your pin" min="1" class="inpShow">
+        <input type="text" id="WrongPinError" readonly class="Error-msg"><br>
+        <button id="pinEnterBtn" onclick="checkPin()" class="Btns">Enter</button>
+        <!-- First Phase of atm Logic ends -->
+
+        <!-- Second Phase of atm Logic -->
+
+        <!--cash Desposit functionality of phase 2-->
+        <input type="number" min="1" id="depositeValue" placeholder="Enter your amount"class="inpShow"><br>
+<input type="text" id="showBlance" readonly class="Error-msg">
+<button id="Enterdepo" onclick="addBalance()" class="Btns">Enter</button>
+<button id="exit1" onclick="ExitF()" class="Btns">Exit</button>
+        <!--cash Desposit functionality of phase 2 end-->
+
+        <!--cash widthdrawal functionality of phase 2-->
+        <input type="number" min="1" id="widthdrawalValue" placeholder="Enter your amount"class="inpShow"><br>
+<input type="text" id="showblance" readonly class="Error-msg">
+<button id="Enterwidth" onclick="subtractBalance()" class="Btns">Enter</button>
+<button id="exit2" onclick="ExitF2()" class="Btns">Exit</button>
+        <!--cash widthdrawal functionality of phase 2 end-->
+
+        <!--Balance check functionality of phase 2-->
+<input type="text" id="showblanceb" readonly class="Error-msg">
+<button id="exit3" onclick="ExitF3()" class="Btns">Exit</button>
+        <!--Balance check functionality of phase 2 end-->
+
+<button id="cashDepo" onclick="depositeFunc()" class="Btns">Cash deposite</button><br>
+<button id="cashWidth" onclick="WidthFunc()" class="Btns">Cash Widthdrawal</button><br>
+<button id="cashCheck" onclick="CashCheckFunc()" class="Btns">Check Your Balance</button><br>
+<button id="Main" onclick="goBack()" class="Btns">Go back</button>
+<hr id="atm-line">
+<div class="box">
+    <img src="img-holder/images.png" alt="atm" id="img-atm">
+    <img src="img-holder/card-logos.jpg" alt="card-logos" id="ctd">
+</div>
+    </div>
+<
+    <footer class="footer">
+   <p>All rights reserved &copy; Designed by Syed Mubashir Ali</p>
+    </footer>
+</body>
+</html>
+<script src="js/index.js"></script>
